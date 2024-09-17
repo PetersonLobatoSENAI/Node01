@@ -84,6 +84,7 @@ function conta(operador, acumulador, ...numeros){
         if (operador === '/') acumulador /= numero
     }
     console.log(acumulador)
+    return acumulador
 }
 conta('*', 1, 20, 30, 40, 50)
 
